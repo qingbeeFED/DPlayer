@@ -61,10 +61,10 @@ export default (options) => {
         //     key: 'about-author',
         //     link: 'https://diygod.me',
         // },
-        // {
-        //     text: `DPlayer v${DPLAYER_VERSION}`,
-        //     link: 'https://github.com/MoePlayer/DPlayer',
-        // },
+        {
+            text: `DPlayer v${DPLAYER_VERSION}`,
+            // link: 'https://github.com/MoePlayer/DPlayer',
+        },
     ]);
 
     return options;
