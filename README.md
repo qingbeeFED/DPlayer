@@ -1,14 +1,13 @@
-<p align="center">
 <img src="https://i.imgur.com/LnPvZvO.png" alt="ADPlayer" width="100">
-</p>
-<h1 align="center">DPlayer</h1>
 
-> 🍭 Wow, such a lovely HTML5 danmaku video player
+# @singcl/dplayer
 
-[![npm](https://img.shields.io/npm/v/dplayer.svg?style=flat-square)](https://www.npmjs.com/package/dplayer)
-[![npm](https://img.shields.io/npm/l/dplayer.svg?style=flat-square)](https://github.com/MoePlayer/DPlayer/blob/master/LICENSE)
-[![npm](https://img.shields.io/npm/dt/dplayer.svg?style=flat-square)](https://www.npmjs.com/package/dplayer)
-[![size](https://badge-size.herokuapp.com/MoePlayer/DPlayer/master/dist/DPlayer.min.js?compression=gzip&style=flat-square)](https://github.com/MoePlayer/DPlayer/tree/master/dist)
+> 🍭 Wow, such a lovely HTML5 danmaku video player.
+> fork [DPlayer](https://github.com/DIYgod/DPlayer/) for tauri app.
+
+[![npm](https://img.shields.io/npm/v/@singcl/dplayer.svg?style=flat-square)](https://www.npmjs.com/package/@singcl/dplayer)
+![npm](https://img.shields.io/npm/l/@singcl/dplayer.svg?style=flat-square)
+[![npm](https://img.shields.io/npm/dt/@singcl/dplayer.svg?style=flat-square)](https://www.npmjs.com/package/@singcl/dplayer)
 
 ## Introduction
 
@@ -35,8 +34,6 @@ DPlayer is a lovely HTML5 danmaku video player to help people build video and da
     -   Quality switching
     -   Thumbnails
     -   Subtitle
-
-Using DPlayer on your project? [Let me know!](https://github.com/DIYgod/DPlayer/issues/31)
 
 **[Docs](https://dplayer.diygod.dev/)**
 
