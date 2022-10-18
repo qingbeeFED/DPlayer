@@ -18,7 +18,7 @@
         "dist"
     ],
     "repository": {
-        "url": "git+https://github.com/DIYgod/DPlayer.git",
+        "url": "git+https://github.com/qingbeeFED/DPlayer.git",
         "type": "git"
     },
     "keywords": [
@@ -30,12 +30,11 @@
     "gitHooks": {
         "pre-commit": "npm run format:staged"
     },
-    "author": "DIYgod",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/DIYgod/DPlayer/issues"
+        "url": "https://github.com/qingbeeFED/DPlayer/issues"
     },
-    "homepage": "https://github.com/DIYgod/DPlayer#readme",
+    "homepage": "https://github.com/qingbeeFED/DPlayer#readme",
     "devDependencies": {
         "@babel/core": "^7.6.0",
         "@babel/preset-env": "^7.4.5",
