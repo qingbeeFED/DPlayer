@@ -25,7 +25,7 @@ module.exports = {
         library: {
             // name: '[name]',
             type: 'module',
-            export: 'default',
+            // export: 'default',
         },
         // umdNamedDefine: true,
         publicPath: '/',
