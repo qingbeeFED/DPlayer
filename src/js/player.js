@@ -7,7 +7,9 @@ import Template from './template';
 import Icons from './icons';
 import Danmaku from './danmaku';
 import Events from './events';
-import FullScreen from './fullscreen';
+// import FullScreen from './fullscreen';
+// tauri app fullscreen方案
+import FullScreen from './fullscreen-tauri';
 import User from './user';
 import Subtitle from './subtitle';
 import Subtitles from './subtitles';
