@@ -2,8 +2,12 @@ const path = require('path');
 const webpack = require('webpack');
 const { GitRevisionPlugin } = require('git-revision-webpack-plugin');
 const gitRevisionPlugin = new GitRevisionPlugin();
+const TerserWebpackPlugin = require('terser-webpack-plugin');
 
 module.exports = {
+    experiments: {
+        outputModule: true,
+    },
     mode: 'production',
 
     bail: true,
@@ -12,16 +16,28 @@ module.exports = {
 
     entry: {
         DPlayer: './src/js/index.js',
+        'DPlayer.min': './src/js/index.js',
     },
 
     output: {
         path: path.resolve(__dirname, '..', 'dist'),
-        filename: '[name].min.js',
-        library: '[name]',
-        libraryTarget: 'umd',
-        libraryExport: 'default',
-        umdNamedDefine: true,
+        filename: '[name].js',
+        library: {
+            // name: '[name]',
+            type: 'module',
+            export: 'default',
+        },
+        // umdNamedDefine: true,
         publicPath: '/',
+    },
+
+    optimization: {
+        minimize: true,
+        minimizer: [
+            new TerserWebpackPlugin({
+                include: /min/,
+            }),
+        ],
     },
 
     resolve: {
