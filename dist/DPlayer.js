@@ -5895,7 +5895,7 @@ var InfoPanel = function () {
         {
             key: 'update',
             value: function update() {
-                this.template.infoVersion.innerHTML = 'v'.concat("1.27.0", ' ').concat("ae31ac9");
+                this.template.infoVersion.innerHTML = 'v'.concat("1.27.0", ' ').concat("3360b28");
                 this.template.infoType.innerHTML = this.player.type;
                 this.template.infoUrl.innerHTML = this.player.options.video.url;
                 this.template.infoResolution.innerHTML = ''.concat(this.player.video.videoWidth, ' x ').concat(this.player.video.videoHeight);
@@ -6611,7 +6611,7 @@ var DPlayer = function () {
 ;// CONCATENATED MODULE: ./src/js/index.js
 
 
-console.log('\n'.concat(' %c DPlayer v', "1.27.0", ' ').concat("ae31ac9", ' %c https://dplayer.diygod.dev ', '\n', '\n'), 'color: #fadfa3; background: #030307; padding:5px 0;', 'background: #fadfa3; padding:5px 0;');
+console.log('\n'.concat(' %c DPlayer v', "1.27.0", ' ').concat("3360b28", ' %c https://dplayer.diygod.dev ', '\n', '\n'), 'color: #fadfa3; background: #030307; padding:5px 0;', 'background: #fadfa3; padding:5px 0;');
 /* harmony default export */ const js = (js_player);
 })();
 
